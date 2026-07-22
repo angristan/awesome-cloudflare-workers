@@ -1,4 +1,6 @@
-# Awesome Cloudflare Workers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Cloudflare Workers
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of projects, libraries, tools, and resources for [Cloudflare Workers](https://developers.cloudflare.com/workers/).
 
