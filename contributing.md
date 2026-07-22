@@ -15,9 +15,9 @@ An addition should:
 
 Stable projects do not need frequent releases, but their documentation and supported APIs must remain current. Beta software is eligible when its maturity is stated in the description.
 
-## Showcase Entries
+## Project Entries
 
-A showcase entry must:
+A project entry must:
 
 - Be a complete end-user application rather than a library, starter, template, or toy demo.
 - Have a recognized open-source license and documented deployment or self-hosting instructions.
@@ -25,7 +25,7 @@ A showcase entry must:
 - Be mature enough to evaluate and show credible ongoing maintenance.
 - Name its key Cloudflare primitives in the entry description.
 
-Demos and official reference applications belong in **Examples and Starters**. Projects that only happen to support Workers as one of many interchangeable deployment targets do not qualify for the showcase.
+Demos and Cloudflare-maintained reference applications belong in **Projects, Examples, and Starters** under **Official Resources**. Projects that only happen to support Workers as one of many interchangeable deployment targets do not qualify for **Projects**.
 
 ## Adding an Entry
 
