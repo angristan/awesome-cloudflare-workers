@@ -55,6 +55,11 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Auth Inbox](https://github.com/TooonyChen/AuthInbox) - Self-hosted verification-code inbox using Workers, Email Routing, D1, optional Workers AI extraction, and KV-backed MCP authentication.
 - [CattoPic](https://github.com/Yuri-NagaSaki/CattoPic) - Self-hosted image hosting with format conversion, tagging, and APIs using Workers, R2, D1, KV, optional Queues, and Images.
 - [workers-firecrawl](https://github.com/G4brym/workers-firecrawl) - Self-hosted Firecrawl-compatible search endpoint using Workers and Browser Rendering.
+- [CloudPaste](https://github.com/ling-drag0n/CloudPaste) - File sharing and storage-mount panel using Workers, D1, Workflows, and scheduled triggers, with R2 and other S3-compatible or WebDAV storage backends.
+- [SubsTracker](https://github.com/wangwangit/SubsTracker) - Subscription expiry tracker using Workers, KV, Static Assets, and scheduled triggers, with reminders through Telegram and other notification channels.
+- [Inkstone](https://github.com/shuaiplus/inkstone) - Self-hosted Markdown notebook using Workers, D1 full-text search, Durable Objects, R2 or KV attachments, and optional Workers AI semantic search.
+- [NodeCrypt](https://github.com/shuaiplus/nodecrypt) - End-to-end encrypted web chat using Workers and SQLite-backed Durable Objects as chat rooms.
+- [ChatGPT-Telegram-Workers](https://github.com/tbxark/ChatGPT-Telegram-Workers) - Telegram chatbot for multiple LLM providers using Workers and KV for state.
 
 ## Frameworks and Adapters
 
@@ -93,6 +98,9 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Cloudflare Email Kit](https://github.com/JacobLinCool/cloudflare-email-kit) - Composable Email Workers packages with R2, D1, and Queues integrations.
 - [Sayiir](https://github.com/sayiir/sayiir) - Durable workflow engine with a dedicated Workers WebAssembly runtime and D1-backed persistence.
 - [Cloudflare Browser CDP](https://github.com/miantiao-me/cf-browser-cdp) - Early-stage authenticated Chrome DevTools Protocol proxy for the Browser Rendering binding.
+- [render](https://github.com/kotx/render) - Deployable Worker that proxies and caches requests to an R2 bucket for public file serving.
+- [y-durableobjects](https://github.com/napolab/y-durableobjects) - Yjs real-time collaboration backend for Workers using Durable Objects with WebSocket hibernation.
+- [kysely-d1](https://github.com/aidenwallis/kysely-d1) - Kysely dialect for D1 that provides a type-safe SQL query builder on Workers.
 
 ---
 
@@ -128,6 +136,7 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Cloudflare Actors](https://github.com/cloudflare/actors) - Beta framework for Durable Objects with persistent properties, RPC, SQLite migrations, alarms, placement, lifecycle hooks, and retries.
 - [Cloudflare MCP](https://github.com/cloudflare/mcp) - Token-efficient MCP server for the Cloudflare API using isolated Dynamic Worker Loader execution.
 - [Saffron](https://github.com/cloudflare/saffron) - Cron parser that powers Cron Triggers in Workers.
+- [lol-html](https://github.com/cloudflare/lol-html) - Streaming HTML parser and rewriter in Rust that powers the HTMLRewriter API in Workers.
 
 ### AI and Isolated Execution
 
@@ -136,6 +145,8 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Cloudflare Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Beta SDK for controlling isolated code-execution containers from Workers.
 - [LangChain Cloudflare](https://github.com/cloudflare/langchain-cloudflare) - Official Python integrations for LangChain and LangGraph using Workers AI, AI Search, Vectorize, and D1 checkpoint storage.
 - [Cloudflare Playwright MCP](https://github.com/cloudflare/playwright-mcp) - Browser-automation MCP server using Workers, Browser Rendering, and Cloudflare Playwright.
+- [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) - Remote MCP servers for Cloudflare products, including Workers bindings, builds, observability, and Browser Rendering, running on Workers.
+- [Cloudflare Computer](https://github.com/cloudflare/computer) - Preview virtual filesystem for agents backed by a Durable Object, with execution backends spanning sandboxed containers and Workers isolates.
 
 ### Projects, Examples, and Starters
 
@@ -153,12 +164,14 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Cloudflare Identity and Access Help Page](https://github.com/cloudflare/cf-identity-dynamic) - Customizable Access denial interface using Workers and KV to display identity and policy context.
 - [OpenAI Workers Relay](https://github.com/cloudflare/openai-workers-relay) - WebSocket relay for connecting applications to OpenAI's Realtime API from Workers.
 - [Cloudflare Workflows Starter](https://github.com/cloudflare/workflows-starter) - Deployable starter for durable, multi-step applications using Workflows and Workers.
+- [Cloudflare OS](https://github.com/cloudflare/cloudflare-os) - Agent workspace for documents, apps, and agents built on Workers, with sandboxed app building and a security guardrail framework.
 
 ### Learning Resources
 
 - [Framework Guides](https://developers.cloudflare.com/workers/framework-guides/) - Deployment guides for supported web, API, mobile, and AI frameworks.
 - [Workers Examples](https://developers.cloudflare.com/workers/examples/) - Focused examples for runtime APIs and platform bindings.
 - [Workers Tutorials](https://developers.cloudflare.com/workers/tutorials/) - Guided projects that combine Workers with other Cloudflare products.
+- [Cloudflare Skills](https://github.com/cloudflare/skills) - Agent Skills that teach coding agents to build on Workers, the Agents SDK, and the Developer Platform.
 
 ## Contributing
 
