@@ -60,6 +60,7 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Inkstone](https://github.com/shuaiplus/inkstone) - Self-hosted Markdown notebook using Workers, D1 full-text search, Durable Objects, R2 or KV attachments, and optional Workers AI semantic search.
 - [NodeCrypt](https://github.com/shuaiplus/nodecrypt) - End-to-end encrypted web chat using Workers and SQLite-backed Durable Objects as chat rooms.
 - [ChatGPT-Telegram-Workers](https://github.com/tbxark/ChatGPT-Telegram-Workers) - Telegram chatbot for multiple LLM providers using Workers and KV for state.
+- [SnapOG](https://github.com/nagpalarpit/snapog) - Self-hosted Open Graph image generation API using Workers, D1, and R2 caching.
 
 ## Frameworks and Adapters
 
