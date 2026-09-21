@@ -60,6 +60,7 @@ Open-source applications that use Workers as a core part of their architecture.
 - [Inkstone](https://github.com/shuaiplus/inkstone) - Self-hosted Markdown notebook using Workers, D1 full-text search, Durable Objects, R2 or KV attachments, and optional Workers AI semantic search.
 - [NodeCrypt](https://github.com/shuaiplus/nodecrypt) - End-to-end encrypted web chat using Workers and SQLite-backed Durable Objects as chat rooms.
 - [ChatGPT-Telegram-Workers](https://github.com/tbxark/ChatGPT-Telegram-Workers) - Telegram chatbot for multiple LLM providers using Workers and KV for state.
+- [tsundoku](https://github.com/pid1/tsundoku) - Self-hosted e-book library with OPDS 1.2 and 2.0 catalogs and KOReader progress sync, using Workers, R2, D1, Static Assets, and Cron Triggers.
 
 ## Frameworks and Adapters
 
