@@ -101,6 +101,7 @@ Open-source applications that use Workers as a core part of their architecture.
 - [render](https://github.com/kotx/render) - Deployable Worker that proxies and caches requests to an R2 bucket for public file serving.
 - [y-durableobjects](https://github.com/napolab/y-durableobjects) - Yjs real-time collaboration backend for Workers using Durable Objects with WebSocket hibernation.
 - [kysely-d1](https://github.com/aidenwallis/kysely-d1) - Kysely dialect for D1 that provides a type-safe SQL query builder on Workers.
+- [wrangler-doctor](https://github.com/kanchingyg/wrangler-doctor) - Offline pre-flight checker for multi-environment bindings, D1 migrations, and workerd global-scope contracts, with a local D1 snapshot seeder and Workflow test harness.
 
 ---
 
